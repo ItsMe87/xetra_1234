@@ -1,0 +1,14 @@
+# Logging configuration
+logging:
+  version: 1
+  formatters:
+    xetra:
+      format: "Xetra Transformer - %(asctime)s - %(levelname)s - %(message)s"
+  handlers:
+    console:
+      class: logging.StreamHandler
+      formatter: xetra
+      level: DEBUG
+  root:
+    level: DEBUG
+    handlers: [console]
