@@ -1,0 +1,25 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "xetra_etl_run",
+            "type": "python",
+            "python.pythonPath": "C:/Users/jslmd/.virtualenvs/xetra_1234-FRDrwcUZ/Scripts/python.exe",
+            "request": "launch",
+            "program": "C:/Daten/xetra_project/xetra_1234/run.py",
+            "console": "integratedTerminal",
+            "args": ["C:/Daten/xetra_project/xetra_1234/configs/xetra_report1_config.yml"]
+
+        }
+    ]
+}
